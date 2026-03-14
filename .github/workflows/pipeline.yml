@@ -28,7 +28,7 @@ jobs:
       - name: Compile Java Source
         run: |
           cd CICDTestPro/src
-          javac -d . *.java
+          javac pack1/*.java
  
  
   test:
